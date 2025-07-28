@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  h1, h2, h5 {
+    font-weight: 700;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+   
+  }
+  
+  .hero .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  /* Service Cards */
+  .service-box {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+
+  /* Info Boxes */
+.border.rounded {
+  transition: all 0.3s ease;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.border.rounded:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Services */
+main h2, main h3 {
+    color: #0077b6;
+  }
+  
+  .border {
+    border: 1px solid #dee2e6 !important;
+  }
+  
+  .shadow-sm {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .shadow-sm:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 168, 232, 0.2);
+  }
+  
+  .btn-primary {
+    background-color: #00A8E8;
+    border-color: #00A8E8;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0077b6;
+    border-color: #0077b6;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  footer h5 {
+    color: #f8f9fa;
+    margin-bottom: 1rem;
+  }
+  
+  footer a {
+    color: #adb5bd;
+  }
+  
+  footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Cookie Consent */
+  #cookieConsent {
+    font-size: 0.95rem;
+  }
+  
+  /* Responsive Fixes */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 60px 15px;
+    }
+  
+    .section-title {
+      font-size: 1.75rem;
+    }
+  }
+  
